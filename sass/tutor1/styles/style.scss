@@ -2,3 +2,7 @@
 @import './variable';
 //This helps break our CSS in parts. 
 @import './header';
+
+.contact{
+    @include flexCenter(row, $lightPurple);
+}
