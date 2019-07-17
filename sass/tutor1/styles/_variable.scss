@@ -1,3 +1,13 @@
 $red : #f00115af;
 $lightPurple: #bd8fbe77;
 $white : #f5f5f5;
+$green: #0ce78c;
+
+//Create mixin with varibles
+@mixin borderProp($border-length:1px, $border-style:solid, $border-color:$green) {
+    border: $border-length $border-style $border-color;
+}
+
+%shared-prop{
+    @include borderProp();
+}

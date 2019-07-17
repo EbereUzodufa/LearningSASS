@@ -15,3 +15,7 @@ body{
     @extend header; //This is used to extend of header to society
     // @extend .contact; - This extends values of contact class
 }
+
+button{
+    @extend %shared-prop; //Extends this shared property
+}

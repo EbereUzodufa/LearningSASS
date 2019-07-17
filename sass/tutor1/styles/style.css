@@ -1,3 +1,7 @@
+button {
+  border: 1px solid #0ce78c;
+}
+
 header, .society {
   display: -webkit-box;
   display: -ms-flexbox;
