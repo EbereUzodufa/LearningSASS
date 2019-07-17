@@ -1,7 +1,15 @@
-header{
-    background: $red;
+@mixin flexCenter {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+header{
+
+    @include flexCenter();
+
+    background: $red;
+    height: 100vh;
     //Nesting - Awesome!!
     button{
         background: $lightPurple;

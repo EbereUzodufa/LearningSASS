@@ -1,16 +1,20 @@
 header {
-  background: #f00115;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f00115af;
+  height: 100vh;
 }
 
 header button {
   background: #bd8fbe77;
-  color: #f00115;
+  color: #f00115af;
 }
 
 header button:hover {
@@ -20,6 +24,6 @@ header button:hover {
 
 header button::after {
   content: "*";
-  color: #f00115;
+  color: #f00115af;
 }
 /*# sourceMappingURL=style.css.map */
