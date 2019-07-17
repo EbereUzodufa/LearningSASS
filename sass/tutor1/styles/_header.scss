@@ -1,0 +1,21 @@
+header{
+    background: $red;
+    display: flex;
+    justify-content: center;
+    //Nesting - Awesome!!
+    button{
+        background: $lightPurple;
+        color: $red;
+
+        //We use & to indicate parent
+        &:hover{
+            background: $white;
+            color: $lightPurple;
+        }
+
+        &::after{
+            content: "*";
+            color: $red;
+        }
+    }
+}

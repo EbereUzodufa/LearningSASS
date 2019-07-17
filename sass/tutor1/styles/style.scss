@@ -1,25 +1,4 @@
-$red : #f00115;
-$lightPurple: #bd8fbe77;
-$white : #f5f5f5;
-
-header{
-    background: $red;
-    display: flex;
-    justify-content: center;
-    //Nesting - Awesome!!
-    button{
-        background: $lightPurple;
-        color: $red;
-
-        //We use & to indicate parent
-        &:hover{
-            background: $white;
-            color: $lightPurple;
-        }
-
-        &::after{
-            content: "*";
-            color: $red;
-        }
-    }
-}
+// And note that there is no extension
+@import './variable';
+//This helps break our CSS in parts. 
+@import './header';
