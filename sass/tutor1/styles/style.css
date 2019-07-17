@@ -3,5 +3,23 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header button {
+  background: #bd8fbe77;
+  color: #f00115;
+}
+
+header button:hover {
+  background: #f5f5f5;
+  color: #bd8fbe77;
+}
+
+header button::after {
+  content: "*";
+  color: #f00115;
 }
 /*# sourceMappingURL=style.css.map */
