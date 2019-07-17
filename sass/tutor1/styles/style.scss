@@ -10,3 +10,8 @@
 body{
     margin: 0;
 }
+
+.society{
+    @extend header; //This is used to extend of header to society
+    // @extend .contact; - This extends values of contact class
+}
