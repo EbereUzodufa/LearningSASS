@@ -4,7 +4,7 @@ $white : #f5f5f5;
 $green: #0ce78c;
 
 //Create mixin with varibles
-@mixin borderProp($border-length:1px, $border-style:solid, $border-color:$green) {
+@mixin borderProp($border-length:1px, $border-style:solid,/*This is an eg of inline comment and it is valid*/ $border-color:$green) {
     border: $border-length $border-style $border-color;
 }
 
