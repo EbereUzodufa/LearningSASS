@@ -6,3 +6,7 @@
 .contact{
     @include flexCenter(row, $lightPurple);
 }
+
+body{
+    margin: 0;
+}

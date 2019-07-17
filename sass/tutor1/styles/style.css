@@ -48,4 +48,8 @@ header button::after {
   background: #bd8fbe77;
   height: 100vh;
 }
+
+body {
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */
